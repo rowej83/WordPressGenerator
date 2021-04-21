@@ -1,0 +1,108 @@
+.App {
+    font-family: sans-serif;
+
+    margin: 0 auto;
+}
+
+pre {
+    margin: 0;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+div.row > span > pre {
+    /*background: initial !important;*/
+}
+
+.delete-hover {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.delete-button {
+    display: none;
+}
+
+.delete-hover:hover .delete-button {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+}
+
+.noneCodeBlock {
+    padding-left: 35px !important;
+}
+
+.codeBlockDiv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 460px) {
+    .codeBlockDiv {
+        padding: 0px !important;
+        margin-top: 10px;
+        overflow-x: auto;
+    }
+
+    .noneCodeBlock {
+        padding-left: 0px !important;
+    }
+}
+
+@media (min-width: 1300px) {
+    .controlCenter{
+        margin-left:20px;
+        width:600px;
+    }
+    .codeBlockDiv {
+        margin-left:20px;
+        background: rgb(248, 248, 255) none repeat scroll 0% 0%;
+
+    }
+}
+
+.metaBottomMargin {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.attributeRow{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reWriteRuleRow
+{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:5px;
+    background-color:#f2f2f2;
+
+
+}
+
+.stage{
+
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.cancelButtonForOnAddBlock{
+    float:right;
+    margin-bottom:10px;
+}
+@media (max-width:900px){
+.jss2{
+
+    min-width:unset!important;
+}
+}
+
+.jss2  .MuiInputBase-root.MuiInput-root.MuiInput-underline {width:100%!important;}
